@@ -1,0 +1,75 @@
+@import './colors.module.scss';
+
+html,
+body,
+body > div#root {
+	height: 100%;
+}
+
+body > div#root {
+	display: flex;
+	flex-direction: column;
+}
+
+// Custom scrollbar appearance
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: map-get($map: $colors, $key: 'scrollbarThumb');
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: map-get($map: $colors, $key: 'scrollbarTrack');
+	border-radius: 6px;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: map-get($colors, 'blue');
+}
+
+::-webkit-scrollbar-corner {
+	background: map-get($map: $colors, $key: 'scrollbarTrack');
+}
+
+// Remove arrows from number input
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+// @dev css debug mode
+// * {
+// 	outline: #4caf5055 solid 1px;
+// 	background-color: rgba(0, 100, 200, 0.05);
+// }
+
+div#userpilotContentNative {
+	z-index: 1300 !important;
+}
+
+// positioning userpilot FABs under drawer menu on mobile
+@media only screen and (max-width: 600px) {
+	iframe#userpilot-resource-centre-frame,
+	iframe#userpilot-checklist {
+		z-index: 1200 !important;
+	}
+}
+
+.flexCenter {
+	display: flex;
+	place-items: center;
+	place-content: center;
+}

@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "useDefineForClassFields": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "target": "es6",
+        "composite": false,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "inlineSources": false,
+        "moduleResolution": "node",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "preserveWatchOutput": true,
+        "rootDir": "./src"
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+}

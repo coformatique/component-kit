@@ -1,0 +1,7 @@
+import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
+
+export const ActionMenuIcon = (props: SvgIconProps) => (
+    <SvgIcon viewBox="0 0 24 24" fill="none" {...props}>
+        <path d="M12 4C13.1044 4 14 3.10437 14 2C14 0.895625 13.1044 0 12 0C10.8956 0 10 0.895625 10 2C10 3.10437 10.8956 4 12 4ZM12 10C10.8956 10 10 10.8938 10 12C10 13.1062 10.8956 14 12 14C13.1044 14 14 13.1044 14 12C14 10.8956 13.1044 10 12 10ZM12 20C10.8956 20 10 20.8956 10 22C10 23.1044 10.8956 24 12 24C13.1044 24 14 23.1044 14 22C14 20.8956 13.1044 20 12 20Z" />
+    </SvgIcon>
+);

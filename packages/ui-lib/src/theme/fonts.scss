@@ -1,0 +1,37 @@
+/**
+ * @license
+*/
+
+@font-face {
+    font-family: 'ESRebondGrotesque-Bold';
+    src: url('./fonts/woff2/esrebondgrotesque-bold.woff2') format('woff2'),
+        url('./fonts/woff/esrebondgrotesque-bold.woff') format('woff'),
+        url('./fonts/eot/esrebondgrotesque-bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'ESRebondGrotesque-Medium';
+    src: url('./fonts/woff2/esrebondgrotesque-medium.woff2') format('woff2'),
+        url('./fonts/woff/esrebondgrotesque-medium.woff') format('woff'),
+        url('./fonts/eot/esrebondgrotesque-medium.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'ESRebondGrotesque-Light';
+    src: url('./fonts/woff2/esrebondgrotesque-light.woff2') format('woff2'),
+        url('./fonts/woff/esrebondgrotesque-light.woff') format('woff'),
+        url('./fonts/eot/esrebondgrotesque-light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'ESRebondGrotesque-SemiBold';
+    src: url('./fonts/woff2/esrebondgrotesque-semibold.woff2') format('woff2'),
+        url('./fonts/woff/esrebondgrotesque-semibold.woff') format('woff'),
+        url('./fonts/eot/esrebondgrotesque-semibold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'ESRebondGrotesque-Regular';
+    src: url('./fonts/woff2/esrebondgrotesque-regular.woff2') format('woff2'),
+        url('./fonts/woff/esrebondgrotesque-regular.woff') format('woff'),
+        url('./fonts/eot/esrebondgrotesque-regular.eot') format('embedded-opentype');
+}
