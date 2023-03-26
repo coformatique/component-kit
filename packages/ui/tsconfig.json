@@ -1,0 +1,24 @@
+{
+  "extends": "@component-kit/scripts/tsconfig.base.json",
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": ["jest", "@types/jest"],
+    "baseUrl": ".",
+    "target": "es6",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  }
+}
