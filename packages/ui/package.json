@@ -1,0 +1,19 @@
+{
+  "name": "@component-kit/ui",
+  "version": "1.0.0",
+  "description": "This is a UI library based on MUI and React Hook Form",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coformatique/component-kit"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "start-storybook",
+    "build": "tsc --module commonjs --outDir lib-commonjs & tsc  --build --verbose",
+    "test": "jest"
+  }
+}
